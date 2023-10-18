@@ -1,0 +1,121 @@
+/*Contact the Company*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: steelblue;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0.5em 0.5em 0em 0em;
+}
+
+nav {
+    background-color: #f70759;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0em 0em 0.5em 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.cta-button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+
+/*Trip with Photographs*/
+.trip-description {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trip-description img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip-description h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.trip-description p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*Travel table*/
+h1 {
+    text-align: center;
+}
+
+.trip-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.trip-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+}
