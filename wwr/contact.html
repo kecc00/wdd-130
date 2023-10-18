@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us">
+    <meta name="author" content="Kevin E. Cruz">
+    <link rel="stylesheet" href="../wwr/styles/rafting.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!--Menu-->
+    <header class="grid-header">
+        <nav class="grid-nav">
+            <a href="../index.html">Home</a>
+            <a href="../wwr/site-plan-rafting.html">La Ceiba Whitewater Rafting</a>
+            <a href="../wwr/about.html">About Us</a>
+            <a href="#">Trips</a>
+            <a href="../wwr/contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!--Formulario de Contacto-->
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="process_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="address">Address:</label>
+            <input type="address" id="address" name="address" required>
+
+            <label for="phone_number">Phone Number:</label>
+            <input type="phone_number" id="phone_number" name="phone_number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <label>
+                <input type="checkbox" name="boletin" value="Si">Subscribe me to the Monthly Newsletter
+            </label>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+
+
+    <!--Footer and SocialLinks-->
+    <footer>
+        <p>©️ 2023 Kevin E. Cruz | La Ceiba Whitewater Rafting | WDD130</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/kecc23/" target="_blank">
+                <img src="./images/facebook.png" alt="Facebook" target="_blank">
+            </a>
+
+            <a href="https://www.linkedin.com/in/dearcruz/" target="_blank">
+                <img src="./images/linkedin.png" alt="Linkedin" target="_blank">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
