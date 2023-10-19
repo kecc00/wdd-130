@@ -84,15 +84,76 @@ p {
     font-size: 16px;
 }
 
-/*Travel table*/
-h1 {
+/*1*/
+.trip-description1 {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     text-align: center;
+    margin-left: auto;
+    position: absolute;
+    top: 296px;
+    left: 530px;
+}
+
+.trip-description1 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip-description1 h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.trip-description1 p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*2*/
+.trip-description2 {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    position: absolute;
+    top: 296px;
+    left: 1000px;
+}
+
+.trip-description2 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip-description2 h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.trip-description2 p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/*Travel table*/
+.h1 {
+    text-align: center;
+    position: static;
+    margin-top: 120px;
 }
 
 .trip-table {
     width: 80%;
     border-collapse: collapse;
-    margin: 20px auto;
+    margin: 0px auto;
+    position: static;
 }
 
 .trip-table th,
@@ -103,7 +164,7 @@ h1 {
 }
 
 .trip-table th {
-    background-color: #333;
+    background-color: steelblue;
     color: #fff;
 }
 
