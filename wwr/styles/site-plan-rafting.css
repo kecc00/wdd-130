@@ -20,6 +20,10 @@
 body {
     font-family: var(--paragraph-font);
     background-color: #ffffff;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
 }
 
 h1,
@@ -34,27 +38,26 @@ h6 {
 
 header {
     background-color: var(--accent1-color);
-    display: flex;
     justify-content: center;
 }
 
-*/ p {
-    padding: 25px;
+h1 {
+    text-align: center;
 }
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
 }
 
 nav a {
-    display: flex;
     color: var(--nav-link-color);
+    display: flex;
     font-weight: 700;
     text-decoration: none;
-    padding: 0.5em;
+    padding: 0.7em;
 }
 
 nav a:link,

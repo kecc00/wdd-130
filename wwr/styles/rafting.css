@@ -20,7 +20,10 @@
 
 body {
     font-family: var(--paragraph-font);
-    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
 }
 
 h1,
@@ -34,19 +37,27 @@ h6 {
     text-align: center;
 }
 
+header {
+    background-color: #f70759
+}
+
 nav {
     font-size: 1rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
 }
 
 nav a {
     color: #fff;
-    display: block;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1.1rem;
+    display: flex;
     font-weight: 700;
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
 }
 
 footer {
@@ -69,17 +80,17 @@ footer {
 }
 
 .nav-text {
-    background-color: steelblue;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 .background-image {
     width: 100%;
     max-height: 350px;
-    margin-top: 10px;
+    margin-top: 0px;
     box-shadow: 0 0 30px gray;
 }
 
@@ -87,66 +98,16 @@ footer {
     text-align: left;
 }
 
-.R1 {
-    width: 30%;
-    height: 30%;
-}
-
-.R2 {
-    width: 30%;
-    height: 30%;
-}
-
-.R3 {
-    width: 30%;
-    height: 258px;
-}
-
-.R4 {
-    width: 30%;
-    height: 260px;
-}
-
-.R5 {
-    width: 30%;
-    height: 260px;
-}
-
-.R6 {
-    width: 30%;
-    height: 260px;
-}
-
-
-
-
-/*Content of Contact us*/
+/*Content of Contact Us*/
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 
-.grid-header {
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    padding: 10px;
-    margin: 0 auto;
-    padding-bottom: 40px;
-    justify-content: space-evenly;
-}
-
-.grid-nav {
-    background-color: steelblue;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .container {
     max-width: 400px;
     margin: 0 auto;
+    margin-top: 10px;
     padding: 50px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
