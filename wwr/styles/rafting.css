@@ -1,6 +1,6 @@
 /*Rafting is of About Us*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 :root {
     --primary-color: #0c3b2e;
@@ -26,16 +26,12 @@ body {
     margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
 }
+
 
 header {
     background-color: #f70759
@@ -60,8 +56,111 @@ nav a:hover {
     color: var(--nav-hover-link-color);
 }
 
+/* Card styles */
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 724px;
+    left: 5%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+/*card1*/
+.card1 {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 724px;
+    left: 35%;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+/*Card2*/
+.card2 {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 724px;
+    left: 65%;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+/*Button*/
+.btn-learn-more {
+    background-color: #f70759;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    /*text-transform: uppercase;*/
+    cursor: pointer;
+}
+
+.btn-learn-more:hover {
+    background-color: #0056b3;
+}
+
 footer {
     text-align: center;
+    justify-content: center;
+    margin-top: 450px;
+    width: 100%;
+    height: 100px;
 }
 
 /* Class Selector */
@@ -80,23 +179,22 @@ footer {
 }
 
 .nav-text {
-    padding: 10px;
+    padding: 0px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
+/*Banner*/
 .background-image {
     width: 100%;
-    max-height: 350px;
+    max-height: 550px;
     margin-top: 0px;
     box-shadow: 0 0 30px gray;
 }
 
-.article-container {
-    text-align: left;
-}
+
+
 
 /*Content of Contact Us*/
 body {
